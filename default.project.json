@@ -1,0 +1,201 @@
+{
+	"name": "RobloxMinesweeper",
+	"tree": {
+		"$className": "DataModel",
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"MatchInitializer": {
+				"$path": "ServerScriptService/MatchInitializer.server.lua",
+				"$className": "Script"
+			},
+			"RemoteSetup": {
+				"$path": "ServerScriptService/RemoteSetup.server.lua",
+				"$className": "Script"
+			},
+			"ServerLeaderboard": {
+				"$path": "ServerScriptService/ServerLeaderboard.server.lua",
+				"$className": "Script"
+			},
+			"ServerLeaveGame": {
+				"$path": "ServerScriptService/ServerLeaveGame.server.lua",
+				"$className": "Script"
+			},
+			"ServerLobbyController": {
+				"$path": "ServerScriptService/ServerLobbyController.server.lua",
+				"$className": "Script"
+			},
+			"ServerRoundController": {
+				"$path": "ServerScriptService/ServerRoundController.server.lua",
+				"$className": "Script"
+			},
+			"RoundFlowController": {
+				"$path": "ServerScriptService/RoundFlowController.lua",
+				"$className": "ModuleScript"
+			}
+		},
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"Modules": {
+				"$className": "Folder",
+				"Config": {
+					"$className": "Folder",
+					"Difficulties": {
+						"$path": "ReplicatedStorage/Modules/Config/Difficulties.lua",
+						"$className": "ModuleScript"
+					},
+					"GameConfig": {
+						"$path": "ReplicatedStorage/Modules/Config/GameConfig.lua",
+						"$className": "ModuleScript"
+					},
+					"PerformanceConfig": {
+						"$path": "ReplicatedStorage/Modules/Config/PerformanceConfig.lua",
+						"$className": "ModuleScript"
+					}
+				},
+				"Core": {
+					"$className": "Folder",
+					"BoardManager": {
+						"$path": "ReplicatedStorage/Modules/Core/BoardManager.lua",
+						"$className": "ModuleScript"
+					},
+					"BoardSerializer": {
+						"$path": "ReplicatedStorage/Modules/Core/BoardSerializer.lua",
+						"$className": "ModuleScript"
+					},
+					"FlagSystem": {
+						"$path": "ReplicatedStorage/Modules/Core/FlagSystem.lua",
+						"$className": "ModuleScript"
+					},
+					"GameRoundManager": {
+						"$path": "ReplicatedStorage/Modules/Core/GameRoundManager.lua",
+						"$className": "ModuleScript"
+					},
+					"MatchManager": {
+						"$path": "ReplicatedStorage/Modules/Core/MatchManager.lua",
+						"$className": "ModuleScript"
+					},
+					"MatchTimer": {
+						"$path": "ReplicatedStorage/Modules/Core/MatchTimer.lua",
+						"$className": "ModuleScript"
+					},
+					"MineGenerator": {
+						"$path": "ReplicatedStorage/Modules/Core/MineGenerator.lua",
+						"$className": "ModuleScript"
+					},
+					"NumberCalculator": {
+						"$path": "ReplicatedStorage/Modules/Core/NumberCalculator.lua",
+						"$className": "ModuleScript"
+					},
+					"PlayerManager": {
+						"$path": "ReplicatedStorage/Modules/Core/PlayerManager.lua",
+						"$className": "ModuleScript"
+					},
+					"RevealSystem": {
+						"$path": "ReplicatedStorage/Modules/Core/RevealSystem.lua",
+						"$className": "ModuleScript"
+					},
+					"RoundService": {
+						"$path": "ReplicatedStorage/Modules/Core/RoundService.lua",
+						"$className": "ModuleScript"
+					},
+					"WinChecker": {
+						"$path": "ReplicatedStorage/Modules/Core/WinChecker.lua",
+						"$className": "ModuleScript"
+					}
+				},
+				"Client": {
+					"$className": "Folder",
+					"Audio": {
+						"$path": "ReplicatedStorage/Modules/Client/Audio"
+					},
+					"BoardRenderer": {
+						"$path": "ReplicatedStorage/Modules/Client/BoardRenderer.lua",
+						"$className": "ModuleScript"
+					},
+					"ClientBoardManager": {
+						"$path": "ReplicatedStorage/Modules/Client/ClientBoardManager.lua",
+						"$className": "ModuleScript"
+					},
+					"ClientGameState": {
+						"$path": "ReplicatedStorage/Modules/Client/ClientGameState.lua",
+						"$className": "ModuleScript"
+					},
+					"Debug": {
+						"$path": "ReplicatedStorage/Modules/Client/Debug"
+					},
+					"HUD": {
+						"$path": "ReplicatedStorage/Modules/Client/HUD"
+					}
+				},
+				"Data": {
+					"$className": "Folder",
+					"Achievements": {
+						"$path": "ReplicatedStorage/Modules/Data/Achievements.lua",
+						"$className": "ModuleScript"
+					}
+				},
+				"Rendering": {
+					"$className": "Folder",
+					"AnimationController": {
+						"$path": "ReplicatedStorage/Modules/Rendering/AnimationController.lua",
+						"$className": "ModuleScript"
+					},
+					"BoardRenderer": {
+						"$path": "ReplicatedStorage/Modules/Rendering/BoardRenderer.lua",
+						"$className": "ModuleScript"
+					},
+					"CellFactory": {
+						"$path": "ReplicatedStorage/Modules/Rendering/CellFactory.lua",
+						"$className": "ModuleScript"
+					},
+					"CellRenderer": {
+						"$path": "ReplicatedStorage/Modules/Rendering/CellRenderer.lua",
+						"$className": "ModuleScript"
+					},
+					"Themes": {
+						"$path": "ReplicatedStorage/Modules/Rendering/Themes"
+					}
+				},
+				"Services": {
+					"$className": "Folder",
+					"AchievementService": {
+						"$path": "ReplicatedStorage/Modules/Services/AchievementService.lua",
+						"$className": "ModuleScript"
+					},
+					"StatisticsService": {
+						"$path": "ReplicatedStorage/Modules/Services/StatisticsService.lua",
+						"$className": "ModuleScript"
+					}
+				},
+				"Shared": {
+					"$className": "Folder",
+					"Events": {
+						"$path": "ReplicatedStorage/Modules/Shared/Events"
+					}
+				}
+			}
+		},
+		"StarterPlayer": {
+			"$className": "StarterPlayer",
+			"StarterPlayerScripts": {
+				"$className": "StarterPlayerScripts",
+				"CellInputController": {
+					"$path": "StarterPlayerScripts/CellInputController.client.lua",
+					"$className": "LocalScript"
+				},
+				"ClientBoardSync": {
+					"$path": "StarterPlayerScripts/ClientBoardSync.client.lua",
+					"$className": "LocalScript"
+				},
+				"HUDStarter": {
+					"$path": "StarterPlayerScripts/HUDStarter.client.lua",
+					"$className": "LocalScript"
+				},
+				"RoundEffects": {
+					"$path": "StarterPlayerScripts/RoundEffects.client.lua",
+					"$className": "LocalScript"
+				}
+			}
+		}
+	}
+}
